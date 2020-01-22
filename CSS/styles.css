@@ -1,3 +1,57 @@
+
+body {
+    font-size: medium;
+    background-color: rgb(36, 33, 33);
+    font-family: cursive;
+    color : rgb(231, 227, 227);
+}
+header {    
+    text-align: center;
+}
+
+footer {
+    margin: 0px;
+    border-top: 1px double black;
+    border-bottom: 1px double black;
+    background-color: rgb(27, 37, 48);
+    padding: 0px 20px 0px 1px;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0px;
+}
+#more-info {
+    font-family:'Times New Roman', Times, serif  ;
+    font-size: 20px;
+    color : white;
+    padding: 0px 15px 0px 15px;
+    background-color    : rgb(54, 20, 20);
+    border: 6px double rgb(105, 82, 82);
+    max-width: 400px;
+    max-height: 500px;
+    margin: 0px auto 0px auto;
+    
+}
+
+.basic-info{
+    width: auto;
+    height: 280px;   
+}
+.float-left { 
+    width: 30%;
+    float:left;
+}
+.float-right {
+    width : 70%;
+    float:right;
+}
+.float-right p{
+    width:300px;
+    overflow: auto;
+}
 #myPic {
+    border-radius: 10px; 
     width : 200px;
+    height : 220px;
+    margin-left:180px;
+    border : 1px solid black ;
 }

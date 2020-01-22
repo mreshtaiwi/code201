@@ -14,15 +14,24 @@
     </header>
 
     <main>
-        <div id="basic-info"> 
+
+        <div class="basic-info">
             <h2>
                 Baraa Abualrub, wanna know more?
             </h2>
-            <img src="baraa-img.jpg" alt="Baraa_Picture" id="myPic">
-            <p>
-                CS graduate from the UJ, interested in programming, cloud and debates. I am 21 years old working as a TA at LTUC.
-            </p>
+
+            <div class="float-right">
+                <p class="info-for-image">
+                    CS graduate from the UJ, interested in programming, cloud and debates. I am 21 years old working as a TA
+                    at LTUC.
+                </p>
+            </div>
+            
+            <div class="float-left">
+                <img src="baraa-img.jpg" alt="Baraa_Picture" id="myPic">
+            </div>
         </div>
+
         <div id="more-info">
             <h4>
                 I like youtube, here are some channels i watch:-
@@ -33,11 +42,28 @@
                 <li>BandaritaX</li>
             </ol>
         </div>
+
+
+        <div class="user-info" style="display:none;">
+            <div class="basic-info">
+                <div class="float-right">
+                    <p class="info-for-image">
+                        
+                    </p>
+                </div>
+                
+                <div class="float-left">
+                    <img src="honey.jpg" alt="user_Picture" id="myPic">
+                </div>
+            </div>
+        </div>
     </main>
 
 
     <footer>
-        Copyright 2019
+        <p>
+            Copyright 2019
+        </p>
     </footer>
     <script src="JS/main.js"></script>
 </body>
